@@ -28,7 +28,7 @@ q.enqueue('a');
 q.enqueue('b');
 q.print();
 q.dequeue();
-q.front();
+console.log(q.front());
 q.print();
 q.dequeue();
 q.print();
