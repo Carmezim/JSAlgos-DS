@@ -2,7 +2,7 @@ const Stack = function() {
   this.count = 0;
   this.storage = {};
 
-  // FIFO 
+  // FILO 
   // Adds value onto the end of the stack
   this.push = (value) => {
     this.storage[this.count] = value;
