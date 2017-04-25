@@ -8,4 +8,10 @@ const fib = (n) => {
   }
   return fibo[n];
 }
-console.log(fib(12));
+const fibbad = (n) => {
+  if (n <= 1)
+    return n;
+  else
+    return fibbad(n-1) + fibbad(n-2);
+}  
+console.log(fibbad(12));
